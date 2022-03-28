@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(232, 193, 193);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: aquamarine;
+}
+.header{
+    max-width: 1280px;
+    max-height: 60px;
+    margin: 0 auto;
+}
+.header-logo{
+    width: 184px;
+    height: 60px;
+}
+.header-title{
+    width: 184px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.header-text{
+    width: 179px;
+    line-height: 15px;
+
+}
+.header-inner{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+}
+.nav{
+    margin-left: auto;
+}
+.nav-item{
+    display: flex;
+    float: left;
+    width: 110px;
+    text-align: center;
+    justify-content: center;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+}
