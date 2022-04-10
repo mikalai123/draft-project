@@ -11,16 +11,16 @@
     <header class="header">
         <div class="container header-container">
             <div class="header-inner">
-                <div class="header-logo">
-                    <h1 class="header-title">Cozy House</h1>
-                    <a class="header-text">shelter for pets in Boston</a>
+                <div href="#part1" class="header-logo">
+                    <h1  class="header-title">Cozy House</h1>
+                    <p class="header-text">shelter for pets in Boston</p>
                 </div>
                 <nav class="nav">
                  <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="#container-about">About the selter</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Out pets</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Help the selter</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+                    <li class="nav-item"><a class=" about-link" href="#about">About the selter</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pets">Out pets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#help">Help the selter</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
                  </ul>
                 </nav>
 
@@ -35,13 +35,15 @@
                 <section class="start-screen">
                     <a class="btn-title">Not only people need a house</a>
                     <p class="btn-text">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-                    <button class="btn"> Make a friend</button>
+                    <button class="btn">
+                        <a class="btn" href="#pets">Make a friend</a>
+                         </button>
                 </section>
                 <img class="item-img" src="../../assets/images/start-screen-puppy.png" alt="dog">
             </div>
         </div>
 
-        <div class="container header-inner" style="background-color: white;">
+        <div id="about" class="container header-inner" style="background-color: white;">
                 <div class="header-inner" >
                     <section class="about">
                         <img class="about-img" src="../../assets/images/about-pets.jpg" alt="about">
@@ -53,7 +55,7 @@
                     </section>
                 </div>
         </div>
-        <div class="container pets-inner">
+        <div id="pets" class="container pets-inner">
             <div class="wrapper">
                 <div class="wrapper-title1"> 
                     <a class="wrapper-title"> Our friends who <br>
@@ -83,12 +85,12 @@
                     
                     <button class="btn-right"><img src="../../assets/icons/Arrow right.svg" alt="right"></button>
                 </div>
-                <button class="wrapper-bnt">Get to know the rest</button>
+                <button class="wrapper-bnt"><a class="text-wrapper" href="#pets">Get to know the rest</a></button>
             </div>
 
         </div>
 
-        <div class="container help">
+        <div id="help" class="container help">
             <div class="heading-help">
                 <div>
                     <h3 class="heading-title">How you can help our shelter</h3>
@@ -99,41 +101,41 @@
                     <div class="grid">
                         <div class="pet-food">
                             <img src="../../assets/icons/icon-pet-food.svg" alt="pet-food">
-                            <p>Pet food</p>
+                            <p class="actions">Pet food</p>
                         </div>
                         <div class="transportation">
                             <img src="../../assets/icons/icon-transportation.svg" alt="transportation">
-                            <p>Transportation</p>
+                            <p class="actions">Transportation</p>
                         </div>
                         <div class="toys">
                             <img src="../../assets/icons/icon-toys.svg" alt="toys">
-                            <p>Toys</p>
+                            <p class="actions">Toys</p>
                         </div>
                         <div class="bowls">
                             <img src="../../assets/icons/icon-bowls-and-cups.svg" alt="bowls">
-                            <p>bowls-and-cups</p>
+                            <p class="actions">Bowls and cups</p>
                         </div>
                         <div class="shampoos">
                             <img src="../../assets/icons/icon-shampoos.svg" alt="shampoos">
-                            <p>shampoos</p>
+                            <p class="actions">Shampoos</p>
                         </div>
                     </div>
                     <div class="grid grid1">
                         <div class="vitamins">
                             <img src="../../assets/icons/icon-vitamins.svg" alt="vitamins">
-                            <p>vitamins</p>   
+                            <p class="actions">Vitamins</p>   
                         </div>
                         <div class="medicines">
                             <img src="../../assets/icons/icon-medicines.svg" alt="medicines">
-                            <p>medicines</p>
+                            <p class="actions">Medicines</p>
                         </div>
                         <div class="collars">
                             <img src="../../assets/icons/icon-collars-leashes.svg" alt="collars">
-                            <p>collars</p>
+                            <p class="actions">Collars / leashes</p>
                         </div>
                         <div class="sleeping">
                             <img src="../../assets/icons/icon-sleeping-area.svg" alt="sleeping">
-                            <p>sleeping</p>
+                            <p class="actions">Sleeping areas</p>
                         </div>
                     </div>
             </div>
@@ -141,52 +143,78 @@
         <div class=" container donation-main">   
             <div class="main">
                 <section class="donation">
-                    <img class="donation-img" src="../../assets/images/donation-dog.jpg" alt="dog">
+                    <img class="donation-img" src="../../assets/images/donation-dog.png" alt="dog">
                 </section>
-                <section class="content">
-                    <div class="donation-title">
-                        <p>You can also <br> make a donation</p>
+                
+                    <div class="content">
+                        <div class="donation-title">
+                            <p>You can also <br> make a donation</p>
+                        </div>
+                        <div>
+                            <h5 class="subheading">Name of the bank / Type of bank account</h5>
+                        </div>
+                        <div>
+                            <button class="btn-credit">
+                                <img class="credit-icon" src="../../assets/icons/credit-card.svg" alt="credit-card">
+                                <h4 class="credit-card">
+                                    <a class="nomber-card" href="#!">8380 2880 8028 8791 7435</a></h4>
+                            </button>
+                          
+                        </div>
+                        <p class="infornation">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    
+
                     </div>
-                    <div>
-                        <h5 class="Subheading">Name of the bank / Type of bank account</h5>
-                    </div>
-                    <div>
-                        <h4 class="Credit card ">23148734201589739417519</h4>
-                    </div>
-                    <p class="infornation">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-                </section>
+                   
             
             </div>
         </div>
  
     </main>
-    <footer class=" container footer">
+    <footer id="contacts" class=" container footer">
         <section class="footer-content">
             <div class="contacts">
                 <div class="footer-title">
                     <h3>For questions and suggestions</h3>
                 </div>
                 <div class="footer-mail">
-                    <img src="../../assets/icons/icon-email.svg">
-                    email.shelter.com
+                    <a class="mail-href" href="mailto:vlad@htmlbook.ru?subject=Вопрос по HTML" target="_blank">
+                        <img class="mail-foto" src="../../assets/icons/icon-email.svg">
+                        <p class="mail-info">email@shelter.com</p>
+                    </a>
                 </div>
                 <div class="phone">
-                    <img src="../../assets/icons/icon-phone.svg">
-                    +37529-398-76-05
-
+                    <a class="phone-href" href="#!" target="_blank">
+                        <img class="phone-foto" src="../../assets/icons/icon-phone.svg">
+                        <p class="phone-info">+13 674 567 75 54</p>
+                    </a>
                 </div>
-            
-            </div>
-            <div class="location">
-                fdhgfd
-            </div>
-            <div class="footer-puppy">
-                <img src="../../assets/images/footer-puppy.jpg">
             </div>
 
+            
+            <div class="location">
+                <div class="footer-title">
+                    <h3>We are waiting for your visit</h3>
+                </div>
+                <div class="footer-mail">
+                    <a class="mail-href" href="https://www.google.com/maps/@48.2065077,25.0428964,4z?hl=ru" target="_blank">
+                        <img class="mail-foto" src="../../assets/icons/pin.svg">
+                        <p class="mail-info">1 Central Street, Boston (entrance from the store)</p>
+                    </a>
+                    
+                </div>
+                <div class="phone">
+                    <a class="mail-href" href="https://www.google.com/maps/@48.2065077,25.0428964,4z?hl=ru" target="_blank">
+                        <img class="phone-foto" src="../../assets/icons/pin.svg">
+                        <p class="phone-info">18 South Park, London </p>
+                    </a>
+            </div>
+            
         </section>
         
-
+        <div class="footer-puppy">
+            <img src="../../assets/images/footer-puppy.png">
+        </div>
 
     </footer>
 
