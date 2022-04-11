@@ -266,6 +266,7 @@ line-height: 160%;
     border: 2px solid #F1CDB3;
     margin: auto;
     font-size: 17px;
+    cursor: pointer;
 }
 .btn-slider:hover{
     

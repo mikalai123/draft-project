@@ -76,13 +76,18 @@ body{
 
 
 
-
+.wrapper-container{
+    height: 1342px;
+}
 .start-container{
     width: 1200px;
     height: 1162px;
-    background-color: aqua;
     padding-top: 40px;
     margin-left: 40px;
+}
+.card-container{
+    margin-top: 45px;
+   
 }
 .heading{
     width: 400px;
@@ -109,7 +114,6 @@ color: #545454;
 
 .card-container{
     height: 930px;
-    background: green;
 }
 .grid{
     width: 1026px;
@@ -136,6 +140,9 @@ color: #545454;
     font-size: 20px;
     letter-spacing: 1px;
 }
+.navigation{
+    margin-top: 45px;
+}
 .btn-slider{
     background-color: white;
     width: 187px;
@@ -145,6 +152,7 @@ color: #545454;
     border: 2px solid #F1CDB3;
     margin: auto;
     font-size: 17px;
+    cursor: pointer;
 }
 .btn-slider:hover{
     
@@ -195,6 +203,12 @@ color: #545454;
 .btn-left:hover{
     background: #FDDCC4;
     cursor: pointer ;
+}
+.btn-left-centr{
+    background: #F1CDB3;
+}
+.btn-left-left{
+    border-color: #CDCDCD;
 }
 
 
